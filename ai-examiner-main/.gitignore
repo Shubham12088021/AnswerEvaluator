@@ -1,0 +1,58 @@
+# ========================
+# 🔥 Node / React
+# ========================
+/node_modules
+**/node_modules
+frontend/node_modules/
+
+/build
+frontend/build/
+
+# ========================
+# 🔥 Python (Backend)
+# ========================
+venv/
+backend/venv/
+__pycache__/
+*.pyc
+
+# ========================
+# 🔥 ENV (IMPORTANT 🔐)
+# ========================
+.env
+.env.*
+frontend/.env
+backend/.env
+
+# ========================
+# 🔥 Uploads (Flask)
+# ========================
+backend/uploads/
+
+# ========================
+# 🔥 Logs
+# ========================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# ========================
+# 🔥 OS files
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# 🔥 Testing
+# ========================
+/coverage
+
+# ========================
+# 🔥 Misc
+# ========================
+.pnp
+.pnp.js
+*.zip
+*.tar
+*.gz
